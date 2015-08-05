@@ -1,0 +1,13 @@
+{
+    "name": "php-value-object/date-time-range",
+    "description": "DateTimeRange value object",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "mhlavac",
+            "email": "info@mhlavac.net"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
