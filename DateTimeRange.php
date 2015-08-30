@@ -5,34 +5,34 @@ namespace PHPValueObject\DateTimeRange;
 class DateTimeRange
 {
     /**
-     * @var \DateTimeInterface
+     * @var \DateTimeImmutable
      */
-    private $from;
+    private $start;
 
     /**
-     * @var \DateTimeInterface
+     * @var \DateTimeImmutable
      */
-    private $to;
+    private $end;
 
-    public function __construct(\DateTimeInterface $from, \DateTimeInterface $to)
+    public function __construct(\DateTimeImmutable $start, \DateTimeImmutable $end)
     {
-        $this->from = $from;
-        $this->to = $to;
+        $this->start = $start;
+        $this->end = $end;
     }
 
     /**
-     * @return \DateTimeInterface
+     * @return \DateTimeImmutable
      */
-    public function getFrom()
+    public function getStart()
     {
-        return $this->from;
+        return $this->start;
     }
 
     /**
-     * @return \DateTimeInterface
+     * @return \DateTimeImmutable
      */
-    public function getTo()
+    public function getEnd()
     {
-        return $this->to;
+        return $this->end;
     }
 }
