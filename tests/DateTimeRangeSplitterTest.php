@@ -2,10 +2,11 @@
 
 namespace PHPValueObject\DateTimeRange\Tests;
 
+use PHPUnit\Framework\TestCase;
 use PHPValueObject\DateTimeRange\DateTimeRange;
 use PHPValueObject\DateTimeRange\DateTimeRangeSplitter;
 
-class DateTimeRangeSplitterTest extends \PHPUnit_Framework_TestCase
+class DateTimeRangeSplitterTest extends TestCase
 {
     public function testSplit()
     {

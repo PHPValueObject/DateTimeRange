@@ -1,5 +1,4 @@
 <?php
-
 namespace PHPValueObject\DateTimeRange;
 
 class DateTimeRangeSplitter
@@ -9,7 +8,7 @@ class DateTimeRangeSplitter
      * @param \DateInterval $dateInterval
      * @return DateTimeRange[]
      */
-    public function split(DateTimeRange $dateTimeRange, \DateInterval $dateInterval)
+    public function split(DateTimeRange $dateTimeRange, \DateInterval $dateInterval) : array
     {
         $ranges = [];
         /** @var \DateTimeImmutable $date */

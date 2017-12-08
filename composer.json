@@ -4,20 +4,22 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "mhlavac",
-            "email": "info@mhlavac.net"
+            "name": "Martin Hlavac",
+            "email": "public@mhlavac.net"
         }
     ],
     "autoload": {
         "psr-4": {
-            "PHPValueObject\\DateTimeRange\\": ""
+            "PHPValueObject\\DateTimeRange\\": "src",
+            "PHPValueObject\\DateTimeRange\\Tests\\": "tests"
         }
     },
     "minimum-stability": "dev",
     "require": {
-        "php": ">=5.5"
+        "php": ">=7.0"
     },
     "require-dev": {
-        "phpunit/phpunit": "^4.8"
+        "phpunit/phpunit": "^6.5",
+        "phpstan/phpstan-shim": "^0.9"
     }
 }

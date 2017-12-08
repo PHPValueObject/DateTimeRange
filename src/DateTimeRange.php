@@ -1,5 +1,4 @@
 <?php
-
 namespace PHPValueObject\DateTimeRange;
 
 class DateTimeRange
@@ -20,18 +19,12 @@ class DateTimeRange
         $this->end = $end;
     }
 
-    /**
-     * @return \DateTimeImmutable
-     */
-    public function getStart()
+    public function getStart() : \DateTimeImmutable
     {
         return $this->start;
     }
 
-    /**
-     * @return \DateTimeImmutable
-     */
-    public function getEnd()
+    public function getEnd() : \DateTimeImmutable
     {
         return $this->end;
     }
