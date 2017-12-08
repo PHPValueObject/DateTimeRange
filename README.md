@@ -1,9 +1,9 @@
 # DateTimeRange Value Object
 
-[![Build Status](https://travis-ci.org/pPHPValueObject/DateTimeRange.svg)](https://travis-ci.org/PHPValueObject/DateTimeRange)
-[![Latest Stable Version](https://poser.pugx.org/PHPValueObject/DateTimeRange/v/stable)](https://packagist.org/packages/phpvalueobject/date-time-range)
-[![License](https://poser.pugx.org/PHPValueObject/DateTimeRange/license)](https://packagist.org/packages/phpvalueobject/date-time-range)
-[![PHPStan](https://img.shields.io/badge/PHPStan-enabled-brightgreen.svg?style=flat)](https://github.com/phpvalueobject/date-time-range)
+[![Build Status](https://travis-ci.org/PHPValueObject/DateTimeRange.svg)](https://travis-ci.org/PHPValueObject/DateTimeRange)
+[![Latest Stable Version](https://poser.pugx.org/php-value-object/date-time-range/v/stable)](https://packagist.org/packages/php-value-object/date-time-range)
+[![License](https://poser.pugx.org/php-value-object/date-time-range/license)](https://packagist.org/packages/php-value-object/date-time-range)
+[![PHPStan](https://img.shields.io/badge/PHPStan-enabled-brightgreen.svg?style=flat)](https://packagist.org/packages/php-value-object/date-time-range)
 
 This repository provides DateTiemRange ValueObject implementation for PHP that is easy to use and easily allow your classes to
 depend on `DateTimeRange` object instead of having both `$startDateTime` and `$endDateTime`.
